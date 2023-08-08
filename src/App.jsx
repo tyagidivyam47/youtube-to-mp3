@@ -40,7 +40,7 @@ function App() {
 
         <form onSubmit={handleSubmit} className="form">
           <input ref={inputUrlRef} placeholder="Paste a Youtube video URL link..." className="form_input" type="text" />
-          <button type="submit" className="form_button">Search</button>
+          <button type="submit" className="form_button">Search Results</button>
         </form>
 
         {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult} className="download_btn">Download MP3</a> : ''}
